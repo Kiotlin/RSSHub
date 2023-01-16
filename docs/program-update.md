@@ -318,9 +318,10 @@ pageClass: routes
 
 ## Logseq
 
-### Changelog
-
-<Route author="nczitzk" example="/logseq/changelog" path="/logseq/changelog"/>
+::: warning
+Logseq 开发团队已经放弃了 [旧网站](https://logseq.com/blog)。
+请使用 <https://github.com/logseq/logseq/releases.atom> 代替。
+:::
 
 ## MacKed
 
@@ -614,11 +615,11 @@ pageClass: routes
 
 ### Changelog
 
-<Route author="cnzgray" example="/typora/changelog" path="/typora/changelog"/>
+<Route author="cnzgray" example="/typora/changelog" path="/typora/changelog" radar="1"/>
 
 ### Dev Release Changelog
 
-<Route author="nczitzk" example="/typora/changelog-dev/macOS" path="/typora/changelog-dev/:os" :paramsDesc="['操作系统类型, 可选 `macOS` 或 `Windows` 与 `Linux`，默认为 `macOS`']"/>
+<Route author="nczitzk" example="/typora/changelog/dev" path="/typora/changelog/dev" radar="1"/>
 
 ## VMware
 

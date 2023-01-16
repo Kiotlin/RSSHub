@@ -136,6 +136,14 @@ Official Website: <https://news.yahoo.co.jp/pages/article/20200207>
 
 </RouteEn>
 
+## Layoffs.fyi
+
+### Layoff Data Tracker
+
+<RouteEn author="BrandNewLifeJackie26" example="/layoffs" path="/layoffs" radar="1"/>
+
+RSS source in the original site is outdated.
+
 ## Lever
 
 ### Recruitment
@@ -163,6 +171,18 @@ Official Website: <https://news.yahoo.co.jp/pages/article/20200207>
 | Physics | Chemistry | Physiology or Medicine | Literature | Peace | Economic Science |
 | ------- | --------- | ---------------------- | ---------- | ----- | ----------------- |
 | physics | chemistry | physiology-or-medicine | literature | peace | economic-sciences |
+
+</RouteEn>
+
+## Panda
+
+### Feeds
+
+<RouteEn author="lyrl" example="/usepanda/feeds/5718e53e7a84fb1901e059cc" path="/usepanda/feeds/:id" :paramsDesc="['Feed ID']">
+
+| Channel                   | feedId                    |
+| -------------------- | ------------------------ |
+| Github | 5718e53e7a84fb1901e059cc |
 
 </RouteEn>
 
@@ -204,16 +224,6 @@ Official Website: <https://news.yahoo.co.jp/pages/article/20200207>
 ### Latest conference materials
 
 <RouteEn author="sbilly" example="/sans/summit_archive" path="/sans/summit_archive" />
-
-## TransferWise
-
-### FX Pair Yesterday
-
-<RouteEn author="HenryQW" example="/transferwise/pair/GBP/USD" path="/transferwise/pair/:source/:target" :paramsDesc="['Base currency abbreviation','Quote currency abbreviation']">
-
-Refer to [the list of supported currencies](https://transferwise.com/tools/exchange-rate-alerts/).
-
-</RouteEn>
 
 ## Trending Search Keyword Aggregator
 
@@ -257,6 +267,16 @@ Type
 
 </RouteEn>
 
+## Wise
+
+### FX Pair Yesterday
+
+<RouteEn author="HenryQW" example="/wise/pair/GBP/USD" path="/wise/pair/:source/:target" :paramsDesc="['Base currency abbreviation','Quote currency abbreviation']" radar="1">
+
+Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate-alerts/).
+
+</RouteEn>
+
 ## 裏垢女子まとめ
 
 ### Homepage
@@ -266,4 +286,3 @@ Type
 ### User
 
 <RouteEn author="SettingDust Halcao" example="/uraaka-joshi/_rrwq" path="/uraaka-joshi/:id" :paramsDesc="['User ID']" radar="1" rssbud="1" puppeteer="1"/>
-
